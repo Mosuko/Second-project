@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2? family = Roboto & display = swap");
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+  background-color: rgb(223, 223, 223);
+  color: rgb(20, 20, 20);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 4px 8px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info p {
+  color: rgb(78, 78, 78);
+  margin: 0;
+  /* text-transform: lowercase; */
+  /* letter-spacing: 5px; */
+  /* word-spacing: 10px; */
+}
+
+/* Box Model */
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.social {
+  background-color: red;
+  padding: 15px;
+  border: 15px solid black;
+  border-bottom: 15px dotted black;
+  margin: 20px 0px;
+}
+
+/* .box-model > div {
+  box-sizing: border-box;
+  border: 5px solid red;
+  float: left;
+  background-color: black;
+  height: 200px;
+  width: 25%;
+} */
+
+.bg-yellow {
+  background-color: #fff9dc;
+}
+
+.bg-green {
+  background-color: #e5ffe7;
+}
+
+.bg-red {
+  background-color: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+  color: rgb(105, 105, 105);
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-group label {
+  display: block;
+}
